@@ -3,7 +3,7 @@ Simple go library to index and search from elastic search with ease
 
 # Usage
 
-# init client
+# Initialize client
 
 esClient := esquery.ESClient{Url: "http://localhost:9200", IndexName: "person"}
 
