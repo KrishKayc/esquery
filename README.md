@@ -30,6 +30,8 @@ response, _ := esClient.Search(query)
 
 ## match
 
+query := esquery.NewQuery()
+
 match := query.Match("Name", "test")
 
 query.AddPart(match)
