@@ -1,5 +1,5 @@
 # esquery
-Simple library to index and search from elastic search with ease
+Simple go library to index and search from elastic search with ease
 
 # Usage
 
