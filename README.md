@@ -19,6 +19,7 @@ esClient.Index(string(b), "true")
 
 # Search Easily with 'Built-In' functions
 
+## term
 query := esquery.NewQuery()
 
 term := query.Term("Name", "test")
@@ -27,6 +28,7 @@ query.AddPart(term)
 
 response, _ := esClient.Search(query)
 
+## match
 
 match := query.Match("Name", "test")
 
