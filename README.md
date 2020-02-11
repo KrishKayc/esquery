@@ -1,7 +1,7 @@
 # esquery
 Simple go library to index and search from elastic search with ease
 
-## Usage
+* ## Usage
 
 ### Initialize client
 
@@ -21,7 +21,7 @@ b, err := json.Marshal(person1)
 esClient.Index(string(b), "true")
 ```
 
-## Search Easily with 'Built-In' functions
+* ## Search Easily with 'Built-In' functions
 
 ### term
 
@@ -47,6 +47,6 @@ query.AddPart(match)
 response, _ := esClient.Search(query)
 ```
 
-## Supported ES descriptors
+* ## Supported ES descriptors
 
 Term, Match, Bool, Must, Should, Filter.. yet to come.
